@@ -1,5 +1,7 @@
 # 🎾 Ebay Tennis Products Price Recommender System  
 
+This project predicts prices of tennis-related products listed on Ebay by combining real-time market data, trend signals, and advanced machine learning models.  
+
 ![Streamlit Frontend Screenshot](assets/streamlit1.png)
 ![Streamlit Frontend Screenshot](assets/streamlit2.png)  
 *Streamlit app showing product price recommendations.* 
@@ -7,8 +9,6 @@
 ![FastAPI Screenshot](assets/fastapi1.png)  
 ![FastAPI Screenshot](assets/fastapi2.png)  
 *FastAPI showing product price recommendations.* 
-
-This project predicts prices of tennis-related products listed on Ebay by combining real-time market data, trend signals, and advanced machine learning models.  
 
 It is built as an **end-to-end system**:  
 - Data collection from APIs and scraping  
