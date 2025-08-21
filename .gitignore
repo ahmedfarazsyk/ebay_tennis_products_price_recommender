@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+myenv/
+frontend/requirements.txt
+backend/requirements.txt
+backend/model/vr_pipeline.pkl

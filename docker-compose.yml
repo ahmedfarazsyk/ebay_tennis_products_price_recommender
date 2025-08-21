@@ -1,0 +1,14 @@
+services:
+  backend:
+    image: ahmedfarazsyk/ebay_product_price_recommender-backend
+    container_name: backend
+    ports:
+      - "8000:8000"
+
+  frontend:
+    image: ahmedfarazsyk/ebay_product_price_recommender-frontend
+    container_name: frontend
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
