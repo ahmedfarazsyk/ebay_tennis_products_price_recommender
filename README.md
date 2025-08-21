@@ -1,11 +1,12 @@
 # 🎾 Ebay Tennis Products Price Recommender System  
 
-[![Python](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/)  
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green)](https://fastapi.tiangolo.com/)  
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.48.1-brightgreen)](https://streamlit.io/)  
-[![Docker](https://img.shields.io/badge/Docker-ready-blue)](https://www.docker.com/)  
-[![AWS EC2](https://img.shields.io/badge/AWS-EC2-orange)](https://aws.amazon.com/ec2/)  
-[![Docker Pulls](https://img.shields.io/docker/pulls/ahmedfarazsyk/ebay_product_price_recommender-backend)](https://hub.docker.com/r/ahmedfarazsyk/ebay_product_price_recommender-backend)
+![Streamlit Frontend Screenshot](assets/streamlit1.png)
+![Streamlit Frontend Screenshot](assets/streamlit2.png)  
+*Streamlit app showing product price recommendations.* 
+
+![FastAPI Screenshot](assets/fastapi1.png)  
+![FastAPI Screenshot](assets/fastapi2.png)  
+*FastAPI showing product price recommendations.* 
 
 This project predicts prices of tennis-related products listed on Ebay by combining real-time market data, trend signals, and advanced machine learning models.  
 
