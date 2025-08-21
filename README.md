@@ -50,7 +50,7 @@ It is built as an **end-to-end system**:
 ---
 
 ## 📂 Project Structure  
-
+``` bash
 ebay_tennis_products_price_recommender/
 ├── .gitignore
 ├── backend
@@ -104,33 +104,38 @@ ebay_tennis_products_price_recommender/
     │   ├── select_dtypes.py
     │   └── transformed_target_regressor.py
 └── requirements.txt
-
+```
 ---
 
 ## ⚡ Quick Start  
 
 ### 🔹 Run with Docker (Recommended)  
 
-1. Clone the repository:  
+1. Clone the repository:
+   
    ```bash
    git clone https://github.com/ahmedfarazsyk/ebay_tennis_products_price_recommender.git
    cd ebay_tennis_products_price_recommender
-2. Pull images from Docker Hub:
+   
+3. Pull images from Docker Hub:
+   
    ```bash
     docker pull ahmedfarazsyk/ebay_product_price_recommender-backend
     docker pull ahmedfarazsyk/ebay_product_price_recommender-frontend
 
 4. Start containers with Docker Compose:
+   
    ```bash
     docker-compose up
 
-5. Access the apps:
+6. Access the apps:
   FastAPI docs → http://localhost:8000
   Streamlit UI → http://localhost:8501
 
 ### 🔹 Run Manually (Without Docker)
 
 1. Backend (FastAPI)
+   
 ``` bash
     cd backend
     pip install -r requirements.txt
@@ -138,6 +143,7 @@ ebay_tennis_products_price_recommender/
 ```
 
 2. Frontend (Streamlit)
+   
     ```bash
     cd frontend
     pip install -r requirements.txt
@@ -145,8 +151,8 @@ ebay_tennis_products_price_recommender/
 
 ### 🌍 Live Demo
 
-FastAPI Backend: http://52.201.206.176:8000/
-Streamlit Frontend: http://52.201.206.176:8501/
+  FastAPI Backend: http://52.201.206.176:8000/
+  Streamlit Frontend: http://52.201.206.176:8501/
 
 ---
 
