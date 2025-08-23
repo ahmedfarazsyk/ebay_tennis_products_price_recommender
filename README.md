@@ -16,7 +16,9 @@ It is built as an **end-to-end system**:
 - FastAPI backend with Pydantic validation  
 - Streamlit frontend for user interaction  
 - Dockerized with `docker-compose`  
-- Deployed on **AWS EC2**  
+- Deployed on **AWS EC2**
+
+Medium Link: [Building an End-to-End Tennis Product Price Recommender System with Machine Learning, FastAPI, Streamlit, Docker and AWS](https://medium.com/@shaikhahmedfaraz64/building-an-end-to-end-tennis-product-price-recommender-system-with-machine-learning-fastapi-a8f93d8125af)
 
 ---
 
